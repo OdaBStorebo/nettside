@@ -3,10 +3,12 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 
 export default function Header() {
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{
+      backgroundColor:"lightblue"
+    }}>
       <Toolbar>
         <Typography variant="h6" noWrap>
-          Daily
+          React App
         </Typography>
       </Toolbar>
     </AppBar>
